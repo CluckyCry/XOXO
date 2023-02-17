@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    height: 5vh;
+}
+
+li{
+    font-size: larger;
+}
+
+.gameContainer{
+    display: grid;
+    margin-top: 2vh;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+}
+
+button{
+    border-radius: 5vw;
+}
+
+p {
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+}
+
+.box{
+    display: inline-block;
+    width: 5vw;
+    height: 10vh;
+    background-color: green;
+    border: 1.5px solid black;
+}
+
+.box input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 5vh;
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+}
+
+.buttons {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.tictactoe{
+    color: white;
+    transition: background-color 0.2s;
+    transition: color 0.3s;
+}
+
+.tictactoe:hover{
+    background-color: violet;
+}
